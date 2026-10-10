@@ -1,0 +1,4 @@
+b7d74de09748366c64a78c89b8c2591dc253593ffc0afde17b69bcef803e0212  cryptidberry-404-edgeever-plugin-v1.0.1.zip
+e6e032bfcc6ab084bf45ed6bc36c288b100d096245f3abc8fb645d306ff23c0a  cryptidberry-404-edgeever-plugin-v1.0.1/manifest.json
+b812da8366cfd048277ce388516d1267fd03389c381b61711e6584110e418b79  cryptidberry-404-edgeever-plugin-v1.0.1/main.js
+3bc3febf5136c39e4be266cce8e4b64dc64bd82f731af6d7ea31d7ccae434b94  cryptidberry-404-edgeever-plugin-v1.0.1/styles.css

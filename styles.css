@@ -112,6 +112,28 @@
 :root.dark {
   color-scheme: dark;
 
+  /* Repeat the interaction family at dark-mode specificity so EdgeEver's
+   * stock :root.dark palette cannot restore teal controls. */
+  --brand-green: #a6b72f;
+  --brand-green-hover: #7f8f1c;
+  --brand-green-muted: #e7e9c3;
+  --brand-green-soft: #f0f0da;
+  --brand-green-border: #c9d36f;
+  --brand-green-text: #a6b72f;
+  --brand-green-rgb: 166 183 47;
+  --brand-green-hover-rgb: 127 143 28;
+  --brand-green-50-rgb: 244 245 225;
+  --brand-green-100-rgb: 231 233 195;
+  --brand-green-200-rgb: 213 220 132;
+  --brand-green-300-rgb: 196 207 91;
+  --brand-green-400-rgb: 181 195 61;
+  --brand-green-500-rgb: 166 183 47;
+  --brand-green-600-rgb: 127 143 28;
+  --brand-green-700-rgb: 196 207 91;
+  --brand-green-800-rgb: 213 220 132;
+  --brand-green-900-rgb: 231 233 195;
+  --brand-green-950-rgb: 244 245 225;
+
   /* Cryptidberry dark room */
   --background: 232 65% 5%;
   --foreground: 37 40% 90%;
@@ -239,6 +261,16 @@ body,
 :root.dark .ProseMirror {
   caret-color: #a6b72f;
   color: #efe7da;
+}
+
+/* EdgeEver gives editor task checkboxes their own hard-coded dark accent. */
+:root.dark
+  .ProseMirror
+  ul[data-type="taskList"]
+  li[data-checked]
+  > label
+  input {
+  accent-color: #a6b72f;
 }
 
 .ProseMirror p {
