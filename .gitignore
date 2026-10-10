@@ -1,0 +1,19 @@
+# env files
+.env
+.env.*
+.env.local
+.env.*.local
+
+# node stuff
+node_modules/
+dist/
+.next/
+out/
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# OS noise
+.DS_Store
